@@ -9,7 +9,7 @@ const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
   debug: false,
-  multiplayer: SocketIO({ server: "localhost:8000" })
+  multiplayer: SocketIO({ server: "https://hanabi-ns.herokuapp.com" })
 });
 
 class App extends React.Component {
